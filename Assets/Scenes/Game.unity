@@ -802,7 +802,7 @@ MonoBehaviour:
   _joystickArea: {fileID: 645734840}
   inActiveJoystickColor: {r: 1, g: 0.97702324, b: 0, a: 1}
   activeJoystickColor: {r: 1, g: 0.96657693, b: 0, a: 1}
-  _characterMovement: {fileID: 0}
+  _characterMovement: {fileID: 8087491791103552971}
 --- !u!114 &645734840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,8 +1584,8 @@ RectTransform:
   m_GameObject: {fileID: 1831362106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1999998, y: 3.1999998, z: 3.1999998}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.71, y: 3.71, z: 3.71}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1460923479}
   - {fileID: 326216122}
@@ -1595,7 +1595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 36, y: -82}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1831362108
@@ -4079,8 +4079,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterShootingConfig: {fileID: 11400000, guid: 26bda17eefbee924297f69846d50a3c3, type: 2}
-  _projectilePrefab: {fileID: 0}
-  _projectileSpawnPoint: {fileID: 0}
+  _projectilePrefab: {fileID: 8845264570263263734, guid: 4ef2a4b7a0ad6db42b68e7c54c270de0, type: 3}
+  _projectileSpawnPoint: {fileID: 8087491791093989945}
   _fireSpeed: 0
   _damage: 0
 --- !u!137 &8087491791107691273
